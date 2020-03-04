@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         if tapCount >= 20 {
             button.setTitle(String(randNum), for: .normal)
         } else if tapCount >= 10 {
-            button.setTitle("Ouch!", for: .normal)
+            button.setTitle("Ouch", for: .normal)
         }
         
         print(tapCount)
