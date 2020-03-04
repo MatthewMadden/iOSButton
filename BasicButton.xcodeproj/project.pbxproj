@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA90A27C240FD98A00F34DCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA90A27B240FD98A00F34DCE /* AppDelegate.swift */; };
+		EA90A27E240FD98A00F34DCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA90A27D240FD98A00F34DCE /* SceneDelegate.swift */; };
+		EA90A280240FD98A00F34DCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA90A27F240FD98A00F34DCE /* ViewController.swift */; };
+		EA90A283240FD98A00F34DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA90A281240FD98A00F34DCE /* Main.storyboard */; };
+		EA90A285240FD98E00F34DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA90A284240FD98E00F34DCE /* Assets.xcassets */; };
+		EA90A288240FD98E00F34DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA90A286240FD98E00F34DCE /* LaunchScreen.storyboard */; };
+		EA90A293240FD98F00F34DCE /* BasicButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA90A292240FD98F00F34DCE /* BasicButtonTests.swift */; };
+		EA90A29E240FD98F00F34DCE /* BasicButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA90A29D240FD98F00F34DCE /* BasicButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA90A28F240FD98F00F34DCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA90A270240FD98A00F34DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA90A277240FD98A00F34DCE;
+			remoteInfo = BasicButton;
+		};
+		EA90A29A240FD98F00F34DCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA90A270240FD98A00F34DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA90A277240FD98A00F34DCE;
+			remoteInfo = BasicButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA90A278240FD98A00F34DCE /* BasicButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA90A27B240FD98A00F34DCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA90A27D240FD98A00F34DCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA90A27F240FD98A00F34DCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA90A282240FD98A00F34DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA90A284240FD98E00F34DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA90A287240FD98E00F34DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA90A289240FD98E00F34DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA90A28E240FD98F00F34DCE /* BasicButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA90A292240FD98F00F34DCE /* BasicButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButtonTests.swift; sourceTree = "<group>"; };
+		EA90A294240FD98F00F34DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA90A299240FD98F00F34DCE /* BasicButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA90A29D240FD98F00F34DCE /* BasicButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButtonUITests.swift; sourceTree = "<group>"; };
+		EA90A29F240FD98F00F34DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA90A275240FD98A00F34DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA90A28B240FD98F00F34DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA90A296240FD98F00F34DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA90A26F240FD98A00F34DCE = {
+			isa = PBXGroup;
+			children = (
+				EA90A27A240FD98A00F34DCE /* BasicButton */,
+				EA90A291240FD98F00F34DCE /* BasicButtonTests */,
+				EA90A29C240FD98F00F34DCE /* BasicButtonUITests */,
+				EA90A279240FD98A00F34DCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA90A279240FD98A00F34DCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA90A278240FD98A00F34DCE /* BasicButton.app */,
+				EA90A28E240FD98F00F34DCE /* BasicButtonTests.xctest */,
+				EA90A299240FD98F00F34DCE /* BasicButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA90A27A240FD98A00F34DCE /* BasicButton */ = {
+			isa = PBXGroup;
+			children = (
+				EA90A27B240FD98A00F34DCE /* AppDelegate.swift */,
+				EA90A27D240FD98A00F34DCE /* SceneDelegate.swift */,
+				EA90A27F240FD98A00F34DCE /* ViewController.swift */,
+				EA90A281240FD98A00F34DCE /* Main.storyboard */,
+				EA90A284240FD98E00F34DCE /* Assets.xcassets */,
+				EA90A286240FD98E00F34DCE /* LaunchScreen.storyboard */,
+				EA90A289240FD98E00F34DCE /* Info.plist */,
+			);
+			path = BasicButton;
+			sourceTree = "<group>";
+		};
+		EA90A291240FD98F00F34DCE /* BasicButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA90A292240FD98F00F34DCE /* BasicButtonTests.swift */,
+				EA90A294240FD98F00F34DCE /* Info.plist */,
+			);
+			path = BasicButtonTests;
+			sourceTree = "<group>";
+		};
+		EA90A29C240FD98F00F34DCE /* BasicButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA90A29D240FD98F00F34DCE /* BasicButtonUITests.swift */,
+				EA90A29F240FD98F00F34DCE /* Info.plist */,
+			);
+			path = BasicButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA90A277240FD98A00F34DCE /* BasicButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA90A2A2240FD98F00F34DCE /* Build configuration list for PBXNativeTarget "BasicButton" */;
+			buildPhases = (
+				EA90A274240FD98A00F34DCE /* Sources */,
+				EA90A275240FD98A00F34DCE /* Frameworks */,
+				EA90A276240FD98A00F34DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicButton;
+			productName = BasicButton;
+			productReference = EA90A278240FD98A00F34DCE /* BasicButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA90A28D240FD98F00F34DCE /* BasicButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA90A2A5240FD98F00F34DCE /* Build configuration list for PBXNativeTarget "BasicButtonTests" */;
+			buildPhases = (
+				EA90A28A240FD98F00F34DCE /* Sources */,
+				EA90A28B240FD98F00F34DCE /* Frameworks */,
+				EA90A28C240FD98F00F34DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA90A290240FD98F00F34DCE /* PBXTargetDependency */,
+			);
+			name = BasicButtonTests;
+			productName = BasicButtonTests;
+			productReference = EA90A28E240FD98F00F34DCE /* BasicButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA90A298240FD98F00F34DCE /* BasicButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA90A2A8240FD98F00F34DCE /* Build configuration list for PBXNativeTarget "BasicButtonUITests" */;
+			buildPhases = (
+				EA90A295240FD98F00F34DCE /* Sources */,
+				EA90A296240FD98F00F34DCE /* Frameworks */,
+				EA90A297240FD98F00F34DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA90A29B240FD98F00F34DCE /* PBXTargetDependency */,
+			);
+			name = BasicButtonUITests;
+			productName = BasicButtonUITests;
+			productReference = EA90A299240FD98F00F34DCE /* BasicButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA90A270240FD98A00F34DCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Matthew Madden";
+				TargetAttributes = {
+					EA90A277240FD98A00F34DCE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EA90A28D240FD98F00F34DCE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EA90A277240FD98A00F34DCE;
+					};
+					EA90A298240FD98F00F34DCE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EA90A277240FD98A00F34DCE;
+					};
+				};
+			};
+			buildConfigurationList = EA90A273240FD98A00F34DCE /* Build configuration list for PBXProject "BasicButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA90A26F240FD98A00F34DCE;
+			productRefGroup = EA90A279240FD98A00F34DCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA90A277240FD98A00F34DCE /* BasicButton */,
+				EA90A28D240FD98F00F34DCE /* BasicButtonTests */,
+				EA90A298240FD98F00F34DCE /* BasicButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA90A276240FD98A00F34DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA90A288240FD98E00F34DCE /* LaunchScreen.storyboard in Resources */,
+				EA90A285240FD98E00F34DCE /* Assets.xcassets in Resources */,
+				EA90A283240FD98A00F34DCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA90A28C240FD98F00F34DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA90A297240FD98F00F34DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA90A274240FD98A00F34DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA90A280240FD98A00F34DCE /* ViewController.swift in Sources */,
+				EA90A27C240FD98A00F34DCE /* AppDelegate.swift in Sources */,
+				EA90A27E240FD98A00F34DCE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA90A28A240FD98F00F34DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA90A293240FD98F00F34DCE /* BasicButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA90A295240FD98F00F34DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA90A29E240FD98F00F34DCE /* BasicButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA90A290240FD98F00F34DCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA90A277240FD98A00F34DCE /* BasicButton */;
+			targetProxy = EA90A28F240FD98F00F34DCE /* PBXContainerItemProxy */;
+		};
+		EA90A29B240FD98F00F34DCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA90A277240FD98A00F34DCE /* BasicButton */;
+			targetProxy = EA90A29A240FD98F00F34DCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA90A281240FD98A00F34DCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA90A282240FD98A00F34DCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA90A286240FD98E00F34DCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA90A287240FD98E00F34DCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA90A2A0240FD98F00F34DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA90A2A1240FD98F00F34DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA90A2A3240FD98F00F34DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BasicButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matt.madden.BasicButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA90A2A4240FD98F00F34DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BasicButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matt.madden.BasicButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA90A2A6240FD98F00F34DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BasicButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matt.madden.BasicButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicButton.app/BasicButton";
+			};
+			name = Debug;
+		};
+		EA90A2A7240FD98F00F34DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BasicButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matt.madden.BasicButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicButton.app/BasicButton";
+			};
+			name = Release;
+		};
+		EA90A2A9240FD98F00F34DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BasicButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matt.madden.BasicButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BasicButton;
+			};
+			name = Debug;
+		};
+		EA90A2AA240FD98F00F34DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BasicButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matt.madden.BasicButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BasicButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA90A273240FD98A00F34DCE /* Build configuration list for PBXProject "BasicButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA90A2A0240FD98F00F34DCE /* Debug */,
+				EA90A2A1240FD98F00F34DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA90A2A2240FD98F00F34DCE /* Build configuration list for PBXNativeTarget "BasicButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA90A2A3240FD98F00F34DCE /* Debug */,
+				EA90A2A4240FD98F00F34DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA90A2A5240FD98F00F34DCE /* Build configuration list for PBXNativeTarget "BasicButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA90A2A6240FD98F00F34DCE /* Debug */,
+				EA90A2A7240FD98F00F34DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA90A2A8240FD98F00F34DCE /* Build configuration list for PBXNativeTarget "BasicButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA90A2A9240FD98F00F34DCE /* Debug */,
+				EA90A2AA240FD98F00F34DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA90A270240FD98A00F34DCE /* Project object */;
+}
